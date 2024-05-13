@@ -1,0 +1,19 @@
+.Header {
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('assets/backgroundLeaves.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 4em;
+    font-family: monospace, sans-serif;
+    text-align: center;
+}
+
+.Header h1 {
+    margin-bottom: 20px;
+    font-size: 8vw;
+  }
