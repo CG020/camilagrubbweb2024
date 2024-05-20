@@ -5,7 +5,7 @@ function DropMenu( {name, items} ) {
   const entries = Object.entries(items);
 
   return (
-    <Dropdown>
+    <Dropdown data-bs-theme="dark">
       <Dropdown.Toggle variant="success" id="dropdown-basic" className="dropdown-toggle">
        {name}
       </Dropdown.Toggle>
@@ -15,7 +15,7 @@ function DropMenu( {name, items} ) {
         {entries.map(([item, action]) => (
             <Dropdown.Item href={action} key={item} className="dropdown-item">
               {item}</Dropdown.Item>
-          ))};
+          ))}
       </Dropdown.Menu>
     </Dropdown>
   );

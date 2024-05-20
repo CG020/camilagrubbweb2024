@@ -16,8 +16,9 @@
   .dropdown-item {
     padding: 5px 10px;
     font-size: 0.4em;
+    background-color: #333437;
   }
 
-  .Dropdown.Toggle:hover {
+  .dropdown-toggle:hover {
     background-color: #898989;
   }
