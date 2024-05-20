@@ -6,14 +6,15 @@ function DropMenu( {name, items} ) {
 
   return (
     <Dropdown>
-      <Dropdown.Toggle variant="success" id="dropdown-basic">
+      <Dropdown.Toggle variant="success" id="dropdown-basic" className="dropdown-toggle">
        {name}
       </Dropdown.Toggle>
 
 
       <Dropdown.Menu>
         {entries.map(([item, action]) => (
-            <Dropdown.Item href={action} key={item}>{item}</Dropdown.Item>
+            <Dropdown.Item href={action} key={item} className="dropdown-item">
+              {item}</Dropdown.Item>
           ))};
       </Dropdown.Menu>
     </Dropdown>

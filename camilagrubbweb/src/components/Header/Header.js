@@ -1,6 +1,5 @@
 import React from 'react';  
 import './Header.css';
-import './DropMenu.css';
 import DropMenu from '../DropMenu/DropMenu';
 
 function Header() {   
