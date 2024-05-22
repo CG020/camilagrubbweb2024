@@ -1,7 +1,7 @@
 
   .dropdown-toggle {
     padding: 5px 10px;
-    font-size: 0.4em;
+    font-size: 0.3em;
     border-radius: 0.5rem;
     cursor: pointer;
     border: none;
@@ -15,7 +15,7 @@
 
   .dropdown-item {
     padding: 5px 10px;
-    font-size: 0.4em;
+    font-size: 0.7em;
     background-color: #333437;
   }
 
