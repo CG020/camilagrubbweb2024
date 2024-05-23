@@ -27,7 +27,18 @@ function App() {
       </div>
 
       <div className='bio-section'>
-        <Bio></Bio>
+        <div className='conatiner'>
+
+        <div className='row'>
+          <div className='col'>
+          <Bio></Bio>
+          </div>
+          <div className='col'>
+            <p>placeholder</p>
+          </div>
+        </div>
+
+        </div>
       </div>
 
     </div>
