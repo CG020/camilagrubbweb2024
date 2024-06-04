@@ -17,6 +17,7 @@
     cursor: pointer;
     border-radius: 15px;
     font-family: monospace;
+    position: relative;
     transition: all 0.3s ease;
 }
 
@@ -45,6 +46,10 @@
 
 .panel:hover {
     flex: 2 2 0;
+    /* z-index: 10;
+    grid-column: 1 / span 3; 
+    grid-row: 1 / span 2;  */
+    font-size: 13px;
     background-color: #e0e0e0;
 }
 

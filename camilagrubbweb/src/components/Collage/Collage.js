@@ -7,7 +7,12 @@ function Collage() {
             <p className='bio-label'>bio</p>
             <div className="collage-container">
                 <div className="panel edu">
-                    <span className="hidden-text">write about my education</span>
+                    <span className="hidden-text">
+                        I'm currently in my Senior Year pursuing my Bcahelor's of Science at the
+                        University of Arizona. I am minoring in Business Administration at teh Eller
+                        College of Business and earned by certificate in general Cybersecurity at UA South.
+                        
+                    </span>
                     education
                 </div>
                 <div className="panel internship">internships</div>
