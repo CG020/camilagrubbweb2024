@@ -1,10 +1,11 @@
 .collage-container {
     display: grid;
-    grid-template-areas: 
-        "edu internship docs"
-        "involve involve docs";
-    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
     padding: 10px;
+    width: 100%;
+    height: 100vh;
 }
 
 .panel {
@@ -16,22 +17,48 @@
     cursor: pointer;
     border-radius: 15px;
     font-family: monospace;
+    transition: all 0.3s ease;
 }
 
 .edu {
-    grid-area: edu;
-    height: 10em;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 11em;
 }
 
 .internship {
-    grid-area: internship;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: 11em;
 }
 
 .involve {
-    grid-area: involve;
-    height: 9em;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    height: 11em;
 }
 
 .docs {
-    grid-area: docs;
+    grid-column: 3 / 3;
+    grid-row: 1 / 3;
+}
+
+.panel:hover {
+    flex: 2 2 0;
+    background-color: #e0e0e0;
+}
+
+.panel:hover .hidden-text {
+    opacity: 1;
+}
+
+.hidden-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    font-family: monospace;
 }

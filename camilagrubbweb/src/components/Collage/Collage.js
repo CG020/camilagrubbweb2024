@@ -6,7 +6,10 @@ function Collage() {
         <div className='Collage'>
             <p className='bio-label'>bio</p>
             <div className="collage-container">
-                <div className="panel edu">education</div>
+                <div className="panel edu">
+                    <span className="hidden-text">write about my education</span>
+                    education
+                </div>
                 <div className="panel internship">internships</div>
                 <div className="panel involve">involvement</div>
                 <div className="panel docs">documents</div>
