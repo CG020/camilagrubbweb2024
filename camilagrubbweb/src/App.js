@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Bio from './components/Bio/Bio';
 import Collage from './components/Collage/Collage';
 import Projects from './components/Projects/Projects';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -41,6 +42,12 @@ function App() {
         <div className='row'>
           <div className='col'>
           <Projects></Projects>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div className='col'>
+          <Gallery></Gallery>
           </div>
         </div>
 
