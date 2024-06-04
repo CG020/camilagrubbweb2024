@@ -5,7 +5,7 @@ function Bio() {
     return(
         <div className='Bio'>
             <div className='container'>
-            <p className='bio-label'>bio</p>
+            <p className='bio-label'>profile</p>
 
             <div className='row'>
             <div className='col'>

@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import Header from './components/Header/Header';
 import Bio from './components/Bio/Bio';
+import Collage from './components/Collage/Collage';
+import Projects from './components/Projects/Projects';
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -34,7 +34,13 @@ function App() {
           <Bio></Bio>
           </div>
           <div className='col'>
-            <p>placeholder</p>
+            <Collage></Collage>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div className='col'>
+          <Projects></Projects>
           </div>
         </div>
 

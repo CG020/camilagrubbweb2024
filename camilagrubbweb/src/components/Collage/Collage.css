@@ -1,0 +1,36 @@
+.collage-container {
+    display: grid;
+    grid-template-areas: 
+        "edu internship docs"
+        "involve involve docs";
+    grid-gap: 15px;
+    padding: 10px;
+}
+
+.panel {
+    background-color: #cbc4f3;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.edu {
+    grid-area: edu;
+    height: 10em;
+}
+
+.internship {
+    grid-area: internship;
+}
+
+.involve {
+    grid-area: involve;
+    height: 9em;
+}
+
+.docs {
+    grid-area: docs;
+}
