@@ -36,7 +36,7 @@ function Collage() {
                 <div className="panel docs">
                 <span className="hidden-text">
                     <div>
-                        <object width="100%" height="400" data={require('./assets/CamilaGrubbCV2024Updated (2) (1).pdf')} type="application/pdf">   </object>
+                        <object width="500" height="400" data={require('./assets/CamilaGrubbCV2024Updated (2) (1).pdf')} type="application/pdf">   </object>
                     </div>
                     </span>
                     
