@@ -26,10 +26,10 @@ function Collage() {
                     internships</div>
                 <div className="panel involve">
                 <span className="hidden-text">
-                        Angel Heart is a Southern Arizona Based volunteer group that helps children have access to clothes, books, toys, and dependable volunteers there to help them grow and thrive.
+                        Angel Heart is a Southern Arizona Based volunteer group that helps children have access to clothes, books, toys, and dependable volunteers.
                         I have been lucky enough to volunteer for Pajama Project events including
                         those that take place around the holidays where I get a chance to meet kids looking for a safe place to learn.
-                        I've met lots of good people and it is a great honor to work among my fellow Tucsonans to better the community.
+                        I've met lots of good people and it is a great honor to work among my fellow Tucsonans.
 
                     </span>
                     involvement</div>
