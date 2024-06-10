@@ -45,10 +45,8 @@
 }
 
 .panel:hover {
-    flex: 2 2 0;
-    /* z-index: 10;
-    grid-column: 1 / span 3; 
-    grid-row: 1 / span 2;  */
+    z-index: 10;
+    grid-column: 1 / span 2;
     font-size: 14px;
     background-color: #e0e0e0;
 }
@@ -59,13 +57,16 @@
 
 .hidden-text {
     position: absolute;
-    flex-wrap: wrap;
-    top: 100%;
-    left: 75%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
-    width: 100%;
     transition: opacity 0.3s ease;
     text-align: center;
     font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.8);
 }
