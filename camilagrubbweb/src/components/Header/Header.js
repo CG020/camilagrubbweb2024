@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 function Header() {   
     return (
         <div>
-        <Navbar message='welcome' tabs={['bio','projects','involvement','gallery']}/>
+        <Navbar message='welcome' tabs={['profile','bio','projects','gallery']}/>
         <div className="Header">
           <h1><i><b>Camila Grubb</b></i></h1>
           <DropMenu name='contact me' items={{email:'camilagrubb@gmail.com',
