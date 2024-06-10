@@ -35,8 +35,9 @@ function Collage() {
                     involvement</div>
                 <div className="panel docs">
                 <span className="hidden-text">
-                    <embed src="file:///C:/Users/Gmill/Downloads/CamilaGrubbCV2024Updated%20(1).pdf" width="300" height="375" 
-                    type="CV/pdf"></embed>
+                    <div>
+                        <object width="100%" height="400" data={require('./assets/CamilaGrubbCV2024Updated (2) (1).pdf')} type="application/pdf">   </object>
+                    </div>
                     </span>
                     
                     documents</div>
