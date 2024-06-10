@@ -31,22 +31,22 @@ function App() {
         <div className='conatiner'>
 
         <div className='row'>
-          <div className='col'>
+          <div className='col' id='profile'>
           <Bio></Bio>
           </div>
-          <div className='col'>
+          <div className='col' id='bio'>
             <Collage></Collage>
           </div>
         </div>
 
         <div className='row'>
-          <div className='col'>
+          <div className='col' id='projects'>
           <Projects></Projects>
           </div>
         </div>
 
         <div className='row'>
-          <div className='col'>
+          <div className='col' id='gallery'>
           <Gallery></Gallery>
           </div>
         </div>
