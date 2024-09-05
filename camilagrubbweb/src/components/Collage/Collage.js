@@ -38,20 +38,17 @@ function Collage() {
                     </span>
                     involvement
                 </div>
-                <div className="panel docs">
-                    <span className="hidden-text">
-                        <div>
-                            <object width="500" height="400" data={require('./assets/CamilaGrubbCV2024.pdf')} type="application/pdf"></object>
-                        </div>
-                    </span>
-                    documents
-                </div>
             </div>
 
             <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Welcome</h5>
-                <p class="card-text">Hello - my name is Camila Grubb. Explore my bio panels and don't forget to scroll!</p>
+                <p className='card-text'> Explore my work further on <a href="www.linkedin.com/in/camila-grubb-8ab00b240">Linkedin
+                </a> or contact me directly and connect with me via email @camilagrubb.gmail.com. <br></br> <br></br>
+                As a recent graduate I am excited to apply my skills and expand my areas of expertise. I have experience working 
+                as a student researcher working in data science and coursework in software engineering and machine learning.
+                <br></br> <br></br>
+                I'm excited to work with you! </p>
             </div>
             </div>
         </div>
