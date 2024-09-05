@@ -51,8 +51,7 @@ function Collage() {
             <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Welcome</h5>
-                <p class="card-text">Hello - my name is Camila Grubb and I am a Senior pursuing my BS in
-                Computer Science at the University of Arizona. Explore my bio panels and don't forget to scroll!</p>
+                <p class="card-text">Hello - my name is Camila Grubb. Explore my bio panels and don't forget to scroll!</p>
             </div>
             </div>
         </div>
