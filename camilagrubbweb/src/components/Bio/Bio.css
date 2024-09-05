@@ -1,26 +1,34 @@
 .bio-label {
     margin-top: 40px;
-    font-family: monospace;
+    font-family: proxima nova;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #adadadec;
+    background-color: #E0E0E0;
     opacity: 0.9;
-    width: 8em;
-    font-size: 1em;
+    width: 10em;
+    font-size: 1.3em;
 }
 
 .bio-image {
     margin-top: 30px;
     border-radius: 25px;
     text-align: left;
-    height: 30em;
+    height: 27em;
+    width: auto;
+}
+
+.bio-image2 {
+    margin-top: 30px;
+    border-radius: 25px;
+    text-align: right;
+    height: 18em;
     width: auto;
 }
 
 .bio-text {
     padding: 5px;
     padding-top: 30px;
-    font-family: monospace;
+    font-family: proxima nova;
     text-align: left;
 }

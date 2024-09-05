@@ -9,11 +9,12 @@
     align-items: center;
     color:rgb(255, 255, 255);
     font-size: 4em;
-    font-family: monospace;
+    font-family: proxima nova;
     text-align: center;
 }
 
 .Header h1 {
     margin-bottom: 20px;
     font-size: 8vw;
+    text-align: right;
   }

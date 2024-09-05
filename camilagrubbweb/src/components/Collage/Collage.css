@@ -1,73 +1,70 @@
 .collage-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
     grid-gap: 5px;
     padding: 10px;
     width: 90%;
-    height: 80vh;
 }
 
 .panel {
-    background-color: #adadadec;
+    background-color: #E0E0E0;
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
     font-size: 18px;
     cursor: pointer;
     border-radius: 15px;
-    font-family: monospace;
+    font-family: proxima nova;
     position: relative;
-    transition: all 0.3s ease;
-}
-
-.edu {
-    grid-column: 1 / 3;
-    grid-row: 1 / 4;
-    height: 5em;
-}
-
-.internship {
-    grid-column: 1 / 3;
-    grid-row: 2 / 4;
-    height: 5em;
-}
-
-.involve {
-    grid-column: 1 / 3;
-    grid-row: 3 / 4;
-    height: 5em;
-}
-
-.docs {
-    grid-column: 1/ 3;
-    grid-row: 4 / 4;
-    height: 5em;
+    overflow: hidden;
+    transition: max-height 1s ease, background-color 0.5s ease, padding 0.5s ease;
+    max-height: 10em;
+    padding: 10px;
+    overflow-y: hidden; 
 }
 
 .panel:hover {
-    z-index: 10;
-    grid-column: 1 / span 2;
-    font-size: 14px;
+    max-height: 20em;
     background-color: #e0e0e0;
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+.panel .hidden-text {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.8s ease;
 }
 
 .panel:hover .hidden-text {
+    display: block;
     opacity: 1;
 }
 
 .hidden-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
     text-align: left;
-    font-family: monospace;
-    background-color: rgba(255, 255, 255, 0.8);
+    font-family: proxima nova;
+    font-size: 17px;
+    background-color: #e0e0e0;
+    transition: background-color 0.1s ease;
+    margin-top: 10px;
+}
+
+.card {
+    width: 20rem;
+    font-family: proxima nova;
+    background-color: #F3DCFF;
+    float: right; 
+    margin-right: 80px; 
+}
+
+
+.card-title {
+    font-family: proxima nova;
+    text-align: left;
+}
+
+.card-text {
+    font-family: proxima nova;
+    text-align: left;
 }

@@ -12,9 +12,7 @@ function Bio() {
                 <img src={require('./assets/originalImage.jpg')} className="bio-image" alt="profile picture" />
             </div>
             <div className='col'>
-                <p  className='bio-text'>Hello - my name is Camila Grubb and I am a Senior pursuing my BS in
-                    Computer Science at the University of Arizona.
-                </p>
+                <img src={require('./assets/philly.png')} className="bio-image2" alt="profile picture2" />
             </div>
             </div>
 
