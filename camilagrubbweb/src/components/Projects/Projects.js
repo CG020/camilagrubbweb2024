@@ -48,6 +48,7 @@ function Projects() {
                     </div>
                 </Carousel.Item>
             </Carousel>
+            <br></br> <br></br>
         </div>
     </div>
   );
