@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #393d43;
 }
 
 .App-logo {
@@ -38,6 +39,6 @@
 }
 
 .bio-section {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }

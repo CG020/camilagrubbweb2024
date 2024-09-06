@@ -28,7 +28,11 @@ function Projects() {
                     <div className="carousel-panel panel-edu">
                         <div className="carousel-caption d-none d-md-block">
                             <h5><b>Edu_Searcher</b></h5>
-                            <p>Placeholder for Project 2 description.</p>
+                            <p>[IN PROGRESS] The edu_searcher is a project I began outside of class as a fast, intuitive tool to 
+                                scour the web for free, accessible education on any subject the user searches. I wanted a tool I could use to filter 
+                                and search the web for open source content if I wanted to learn a new quick skill or interesting topic. I'm still working on 
+                                connecting to as many information source APIs as I can to build its growing sources. <i>Repo: edu_searcher</i>
+                            </p>
                         </div>
                     </div>
                 </Carousel.Item>

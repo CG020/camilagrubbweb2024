@@ -45,7 +45,7 @@ function Collage() {
                 <h5 class="card-title">Welcome</h5>
                 <p className='card-text'> Explore my work further on <a href="www.linkedin.com/in/camila-grubb-8ab00b240">Linkedin
                 </a> or contact me directly and connect with me via email @camilagrubb.gmail.com. <br></br> <br></br>
-                As a recent graduate I am excited to apply my skills and expand my areas of expertise. I have experience working 
+                As a soon to be graduate I am excited to apply my skills and expand my areas of expertise. I have experience working 
                 as a student researcher working in data science and coursework in software engineering and machine learning.
                 <br></br> <br></br>
                 I'm excited to work with you! </p>
