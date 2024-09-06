@@ -5,6 +5,7 @@ import Bio from './components/Bio/Bio';
 import Collage from './components/Collage/Collage';
 import Projects from './components/Projects/Projects';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -54,6 +55,7 @@ function App() {
         </div>
       </div>
 
+      <Footer></Footer>
     </div>
   );
 }
