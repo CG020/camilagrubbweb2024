@@ -42,3 +42,12 @@
   padding-left: 40px;
   padding-right: 40px;
 }
+
+.header-section {
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 0.s ease-out;
+}
