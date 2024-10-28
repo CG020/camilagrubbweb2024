@@ -47,6 +47,18 @@ function Projects() {
                         </div>
                     </div>
                 </Carousel.Item>
+                <Carousel.Item>
+                    <div className="carousel-panel panel-radar">
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5><b>MMWave Radar</b></h5>
+                            <p>A repo I created from the spurce code if the Texas Instruments milimter wave toolkit to manage
+                                and visualize the real time data capture outputted from the IWR6843AOPEVM MCBOOST radar board for the purpose
+                                of running and experimenting with the Vital Signs lab for my ACABI. <i>Repo: mmWave
+                            </i>
+                            </p>
+                        </div>
+                    </div>
+                </Carousel.Item>
             </Carousel>
             <br></br> <br></br>
         </div>

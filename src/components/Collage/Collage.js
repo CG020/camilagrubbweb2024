@@ -38,6 +38,24 @@ function Collage() {
                     </span>
                     involvement
                 </div>
+                <div className="panel publication">
+                    <span className="hidden-text">
+                        Within working at the Banner Medical Center, I worked specifically for the Arizona Center for Accelerated Biomedical Innovation (ACABI). Through ACABI,
+                        my research team and I were accepted by MDPI for a project involving motion detection through through on body and around body medical sensors and data capture: <br></br><br></br>
+
+                        <b>Around-Body versus On-Body Motion Sensing: A comparison of Efficacy Across a Range of Body Movements and Scales
+                        Around-Body versus On-Body Motion Sensing: A comparison of Efficacy Across a Range of Body Movements and Scales</b> <br></br>
+                        MDPI (Multidisciplinary Digital Publishing Institute) · Oct 25, 2024MDPI (Multidisciplinary Digital Publishing Institute) · Oct 25, 2024
+                        Manuscript ID: bioengineering-3261059
+                        <br></br><br></br>
+
+                        Authors: Katelyn Rohrer, Camila Grubb, Luis De Anda, Zachary Hansen, Jordan
+                        Rodriguez, Grayson St Pierre, Sara Sheikhlary, Suleyman Omer, Binh Tran,
+                        Mehrail Lawendy, Farah Alqaraghuli, Chris Hedgecoke, Youssif Abdelkeder,
+                        Rebecca C. Slepian, Ethan Ross, Ryan Chung, Marvin J. Slepian *
+                    </span>
+                    publications
+                </div>
             </div>
 
             <div class="card">
